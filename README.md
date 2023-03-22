@@ -13,9 +13,9 @@ $ cd /datos/camda2023/metasub
 $ sftp camda@metasub.ethz.ch
 $ # Password given at http://camda2023.bioinf.jku.at/data_download
 sftp> cd camda2023
-sftp> get -a *	# This part takes a lot of time, to detach from screen press Ctrl+A D
-sftp> exit	# Type this when download finishes
-$ exit 	# Exit metasub screen
+sftp> get -a *  # Takes a long time, detach from screen with Ctrl+A D
+sftp> exit      # Exit sftp shell
+$ exit          # Exit metasub screen
 ```
 
 The `-a` flag for `get` is used so that only new files are downloaded, and old ones are skipped. This was done due to the fact that sometimes the download process may halt, making it necessary to check the download state frequently, and resume it appropriately. Because halting might happen in the middle of a download, files in which `sftp` got stuck were deleted prior to running `get -a *` once again.
@@ -32,7 +32,7 @@ $ mkdir -p /datos/camda2023/kraken/outputs
 $ cd /datos/camda2023/metasub/
 $ ls *_1.fastq.gz | cat | while read f1;
 > do
-> basename="${f1%%_1.*}";
+> basename="${f1%%_1.*}";   # Filename without the last "_#.fastq.gz"
 > f2="${basename}_2.fastq.gz";
 > echo ""
 > echo "${basename}"
@@ -40,5 +40,5 @@ $ ls *_1.fastq.gz | cat | while read f1;
 > --threads 16 --output "../kraken/outputs/${basename}.kraken" \
 > --report "../kraken/reports/${basename}.report" "$f1" "$f2";
 > done
-> exit	# Exit kraken screen
+$ exit	# Exit kraken screen
 ```
