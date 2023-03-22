@@ -19,3 +19,26 @@ $ exit 	# Exit metasub screen
 ```
 
 The `-a` flag for `get` is used so that only new files are downloaded, and old ones are skipped. This was done due to the fact that sometimes the download process may halt, making it necessary to check the download state frequently, and resume it appropriately. Because halting might happen in the middle of a download, files in which `sftp` got stuck were deleted prior to running `get -a *` once again.
+
+## Classification
+
+The next step is to perform a taxonomic classification on the downloaded data using [kraken2](https://ccb.jhu.edu/software/kraken2/). We'll create a `kraken` directory for the program's outputs inside CAMDA 2023's root directory (`/datos/camda2023/`). Inside the `kraken` directory, we'll have two directories, one for `outputs` and another for `reports`. The output filenames will follow the original filenames without the extension, and will use `.kraken` and `.report` extensions for `kraken2` outputs and reports, respectively. Because the sequence files are paired and gzipped, we'll use the `--paired` and `--gzip-compressed` flags. We will also employ a previously build `kraken2` database located at `/datos/camda2023/kraken/db/`.
+
+```shell
+$ screen -S kraken
+$ conda activate metagenomics
+$ mkdir -p /datos/camda2023/kraken/reports
+$ mkdir -p /datos/camda2023/kraken/outputs
+$ cd /datos/camda2023/metasub/
+$ ls *_1.fastq.gz | cat | while read f1;
+> do
+> basename="${f1%%_1.*}";
+> f2="${basename}_2.fastq.gz";
+> echo ""
+> echo "${basename}"
+> kraken2 --db ../kraken/db/ --gzip-compressed --paired \
+> --threads 16 --output "../kraken/outputs/${basename}.kraken" \
+> --report "../kraken/reports/${basename}.report" "$f1" "$f2";
+> done
+> exit	# Exit kraken screen
+```
