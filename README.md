@@ -50,7 +50,7 @@ tar -xf reports_2017.tar.gz
 ```
 
 - `biom_2016.tsv` and `biom_2017.tsv` are TSV files in [BIOM](https://biom-format.org/)
-format produced from the reports contained in `reports_2016.tar.gz` `reports_2017.tar.gz`,
+format produced from the reports contained in `reports_2016.tar.gz` and `reports_2017.tar.gz`,
 respectively.
 - `amr_2016.tar.gz` and `amr_2017.tar.gz` contains [RGI](https://github.com/arpcard/rgi)'s
 TSV outputs with information on the identified antimicrobial resistance markers at
