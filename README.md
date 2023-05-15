@@ -7,6 +7,19 @@ published at Zenodo. Currently, it only stores 2017 sample data.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7905441.svg)](https://doi.org/10.5281/zenodo.7905441)
 
+These are the cisites from 2017 data
+BAL
+DEN
+DOH
+ILR
+MIN
+NYC
+SAN
+SAO
+TOK
+VIE
+ZRH
+
 Data is structured as follows:
 
 - `samples_2017.txt` is the list of samples from 2017.
