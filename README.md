@@ -37,7 +37,7 @@ The 2017 sample data has the following cities:
 - ZRH (Zurich)
 
 |ID_city	|City	|Latitude	|Longitude|  |  
-|---------|-----|---------|---------|--|   Cfb Cfa Cfb Cfb BSk BWh Aw  Aw  Csa 
+|---------|-----|---------|---------|--|   
 |AKL	|Auckland	|-36.8508827	|174.7644881|  Cfb   |  
 |BAL	|Baltimore	|39.2903848|	-76.6121893  |Cfa |    
 |BER	|Berlin	|52.5200066	|13.404954  |Cfb  |  
