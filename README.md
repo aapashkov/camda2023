@@ -36,28 +36,28 @@ The 2017 sample data has the following cities:
 - VIE (Vienna)
 - ZRH (Zurich)
 
-|ID_city	|City	|Latitude	|Longitude|  
-|---------|-----|---------|---------|
-|AKL	|Auckland	|-36.8508827	|174.7644881|    
-|BAL	|Baltimore	|39.2903848|	-76.6121893  |  
-BER	Berlin	52.5200066	13.404954  |  
-BOG	Bogota, incomplete	4.7109886	-74.072092|  
-DEN	Denver	39.7392358	-104.990251|  
-DOH	Doha	25.2854473	51.5310398|  
-ILR	Ilorin	8.5373356	4.5443923|  
-ILR	Ilorin, incomplete	8.5373356	4.5443923|  
-LIS	Lisbon	38.7222524	-9.1393366|  
-MIN	Mineapolis	44.977753	-93.2650108|  
-NYC	New York City	40.7127753	-74.0059728|  
-NYC	New York City, incomplete	40.7127753	-74.0059728|  
-SAC	Sacramento	38.5815719	-121.4943996|  
-SAN	San Antonio	29.4251905	-98.4945922|  
-SAO	Sao Paulo	-23.5557714	-46.6395571|  
-TOK	Tokyo	35.6761919	139.6503106|  
-TOK	Tokyo, incomplete	35.6761919	139.6503106|  
-VIE	Vienna	48.2081743	16.3738189|  
-ZRH	Zurich	47.3768866	8.541694|  
-  
+|ID_city	|City	|Latitude	|Longitude|  |  
+|---------|-----|---------|---------|--|  
+|AKL	|Auckland	|-36.8508827	|174.7644881|    |  
+|BAL	|Baltimore	|39.2903848|	-76.6121893  ||    
+|BER	|Berlin	|52.5200066	|13.404954  |  |  
+|BOG	|Bogota, incomplete	|4.7109886|	-74.072092||    
+|DEN	|Denver	|39.7392358|	-104.990251|  |  
+|DOH	|Doha	|25.2854473	|51.5310398|  |  
+|ILR	|Ilorin	|8.5373356	|4.5443923|  |  
+|ILR	|Ilorin, incomplete	|8.5373356|	4.5443923||    
+|LIS	|Lisbon	|38.7222524|	-9.1393366|  |  
+|MIN	|Mineapolis|	44.977753	|-93.2650108| |   
+|NYC	|New York City|	40.7127753	|-74.0059728||    
+|NYC	|New York City, incomplete|	40.7127753|	-74.0059728||    
+|SAC	|Sacramento	|38.5815719|	-121.4943996|  |  
+|SAN	|San Antonio	|29.4251905	|-98.4945922|  |  
+|SAO	|Sao Paulo	|-23.5557714	|-46.6395571|  |  
+|TOK	|Tokyo	|35.6761919|	139.6503106|  |  
+|TOK	|Tokyo, incomplete	|35.6761919|	139.6503106||    
+|VIE	|Vienna	48.2081743	|16.3738189|  |  
+|ZRH|	Zurich	|47.3768866	|8.541694|  |  
+    
 Data is structured as follows:
 
 - `samples_2016.txt` and `samples_2017.txt` are the lists of samples from 2016 and
