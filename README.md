@@ -37,7 +37,7 @@ The 2017 sample data has the following cities:
 - ZRH (Zurich)
 
 |ID_city	|City	|Latitude	|Longitude|  |  
-|---------|-----|---------|---------|--|  
+|---------|-----|---------|---------|--|   Cfb Cfa Cfb Cfb BSk BWh Aw  Aw  Csa 
 |AKL	|Auckland	|-36.8508827	|174.7644881|  Cfb   |  
 |BAL	|Baltimore	|39.2903848|	-76.6121893  |Cfa |    
 |BER	|Berlin	|52.5200066	|13.404954  |Cfb  |  
@@ -47,15 +47,15 @@ The 2017 sample data has the following cities:
 |ILR	|Ilorin	|8.5373356	|4.5443923|Aw |  
 |ILR	|Ilorin, incomplete	|8.5373356|	4.5443923| Aw  |    
 |LIS	|Lisbon	|38.7222524|	-9.1393366| Csa  |  
-|MIN	|Mineapolis|	44.977753	|-93.2650108| Csa  |   
-|NYC	|New York City|	40.7127753	|-74.0059728| Dfa |    
-|NYC	|New York City, incomplete|	40.7127753|	-74.0059728| Cfa |    
-|SAC	|Sacramento	|38.5815719|	-121.4943996| Cfa  |  
-|SAN	|San Antonio	|29.4251905	|-98.4945922| Csa |  
-|SAO	|Sao Paulo	|-23.5557714	|-46.6395571|  Cfa  |  
-|TOK	|Tokyo	|35.6761919|	139.6503106| Cfa  |  
+|MIN	|Mineapolis|	44.977753	|-93.2650108| Dfa   |   
+|NYC	|New York City|	40.7127753	|-74.0059728| Cfa  |    
+|NYC	|New York City, incomplete|	40.7127753|	-74.0059728|Cfa|    
+|SAC	|Sacramento	|38.5815719|	-121.4943996|  Csa  |  
+|SAN	|San Antonio	|29.4251905	|-98.4945922| Cfa  |  
+|SAO	|Sao Paulo	|-23.5557714	|-46.6395571|  Cfa |  
+|TOK	|Tokyo	|35.6761919|	139.6503106| Cfa   |  
 |TOK	|Tokyo, incomplete	|35.6761919|	139.6503106| Cfa |    
-|VIE	|Vienna|	48.2081743	|16.3738189|Cfa Cfb   |  
+|VIE	|Vienna|	48.2081743	|16.3738189| Cfb   |  
 |ZRH|	Zurich	|47.3768866	|8.541694| Cfb  |  
     
 Data is structured as follows:
