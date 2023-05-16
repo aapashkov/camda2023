@@ -37,8 +37,9 @@ The 2017 sample data has the following cities:
 - ZRH (Zurich)
 
 |ID_city	|City	|Latitude	|Longitude|  
-AKL	Auckland	-36.8508827	174.7644881|    
-BAL	Baltimore	39.2903848	-76.6121893  |  
+|---------|-----|---------|---------|
+|AKL	|Auckland	|-36.8508827	|174.7644881|    
+|BAL	|Baltimore	|39.2903848|	-76.6121893  |  
 BER	Berlin	52.5200066	13.404954  |  
 BOG	Bogota, incomplete	4.7109886	-74.072092|  
 DEN	Denver	39.7392358	-104.990251|  
