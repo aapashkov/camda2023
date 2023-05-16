@@ -55,7 +55,7 @@ The 2017 sample data has the following cities:
 |SAO	|Sao Paulo	|-23.5557714	|-46.6395571|  |  
 |TOK	|Tokyo	|35.6761919|	139.6503106|  |  
 |TOK	|Tokyo, incomplete	|35.6761919|	139.6503106||    
-|VIE	|Vienna	48.2081743	|16.3738189|  |  
+|VIE	|Vienna|	48.2081743	|16.3738189|  |  
 |ZRH|	Zurich	|47.3768866	|8.541694|  |  
     
 Data is structured as follows:
