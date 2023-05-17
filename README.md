@@ -9,7 +9,7 @@ published at Zenodo:
 
 It consists of a single `tar.gz` file with the following directory structure:
 
-```shell
+```text
 c23.tar.gz
 ├── amr_2016/
 │   └── CAMDA23_MetaSUB_gCSD16_<city>_<number>
@@ -27,7 +27,7 @@ c23.tar.gz
 ├── reports_2017/
 │   └── CAMDA23_MetaSUB_gCSD17_<city>_<number>.report
 ├── samples_2016.txt
-└── samples_2017.txt''
+└── samples_2017.txt
 ```
 
 The elements `<city>` and `<number>` correspond to the city code and the sample
