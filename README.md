@@ -25,7 +25,7 @@ c23.zip
 ├── taxonomy/
 │   ├── assembly-level/
 │   │   └── <basename>.report
-│   └── read-level/
+│   ├── read-level/
 │   │   └── <basename>.report
 │   ├── assembly-biom.tsv
 │   └── read-biom.tsv
