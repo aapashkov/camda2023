@@ -5,18 +5,16 @@
 Antimicrobial resistance and taxonomic classification data for CAMDA 2023 is
 published at Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8001481.svg)](https://doi.org/10.5281/zenodo.8001481)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8003231.svg)](https://doi.org/10.5281/zenodo.8003231)
 
 It consists of a single `zip` file with the following directory structure:
 
 ```text
 c23.zip
 ├── amr/
-│   ├── json/
-│   │   └── <basename>.json
 │   ├── tsv/
 │   │   └── <basename>.tsv
-│   └── amr-biom.tsv
+│   └── amr-counts.tsv
 ├── functions/
 │   ├── html/
 │   │   └── <basename>.html
@@ -27,11 +25,12 @@ c23.zip
 │   │   └── <basename>.report
 │   ├── read-level/
 │   │   └── <basename>.report
+│   ├── assembly-biom.json
 │   ├── assembly-biom.tsv
+│   ├── read-biom.json
 │   └── read-biom.tsv
 ├── amr_patterns.tsv
-├── basenames.txt
-└── missing.txt
+└── basenames.txt
 ```
 
 The `<basename>` element corresponds to the sample name without extension;
@@ -93,5 +92,5 @@ The following table contains detailed information on every sampled city.
 Download the dataset with:
 
 ```shell
-wget https://zenodo.org/record/8001481/files/c23.zip
+wget https://zenodo.org/record/8003231/files/c23.zip
 ```
